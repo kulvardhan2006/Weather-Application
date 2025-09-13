@@ -3,7 +3,7 @@ const locationButton = document.querySelector(".location-button");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const hourlyWeather = document.querySelector(".hourly-weather .weather-list");
 
-const API_KEY = "YOUR-API-KEY-HERE"; // API key
+const API_KEY = "c30eb422bdc6403a9d0114828241011"; // API key
 
 // Weather codes for mapping to custom icons
 const weatherCodes = {
@@ -103,4 +103,5 @@ locationButton.addEventListener("click", () => {
 });
 
 // Initial weather request for London as the default city
+
 setupWeatherRequest("London");
